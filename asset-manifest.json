@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/project-management-system/static/css/main.10becb29.css",
+    "main.js": "/project-management-system/static/js/main.9b587c65.js",
+    "index.html": "/project-management-system/index.html",
+    "main.10becb29.css.map": "/project-management-system/static/css/main.10becb29.css.map",
+    "main.9b587c65.js.map": "/project-management-system/static/js/main.9b587c65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10becb29.css",
+    "static/js/main.9b587c65.js"
+  ]
+}
