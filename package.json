@@ -1,6 +1,6 @@
 {
-  "name": "team-ecommerce-app",
-  "homepage": "http://kingnordee.github.io/ksu-ecommerce",
+  "name": "project-management-system",
+  "homepage": "http://kingnordee.github.io/project-management-system/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
