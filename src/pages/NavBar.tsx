@@ -13,7 +13,7 @@ const NavBar = () => {
                     <NavLink className={({ isActive }) => checkActive(isActive)}  to="/">Home</NavLink>
                 </div>
                 <div className="navRight">
-                    <NavLink className={({ isActive }) => checkActive(isActive)} to="/login">Sign In</NavLink>
+                    <NavLink className={({ isActive }) => checkActive(isActive)} to="/sign-in">Sign In</NavLink>
                     <NavLink className={({ isActive }) => checkActive(isActive)} to="/sign-up">Sign Up</NavLink>
                 </div>
             </div>
