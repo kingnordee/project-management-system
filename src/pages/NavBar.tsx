@@ -2,10 +2,24 @@ import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 
 const NavBar = () => {
+
+    const checkActive = (isActive: boolean) => {
+        return (isActive ? 'isActive' : '')
+    }
     return (
-        <div>
-            <NavLink to="/login">Login</NavLink>
-            <NavLink to="/">Home</NavLink>
+        <div className="navBar">
+            <div className="navInnerWrapper">
+                <div className="navLeft">
+                    <NavLink className={({ isActive }) => checkActive(isActive)}  to="/">Home</NavLink>
+                </div>
+                <div className="navRight">
+                    <NavLink className={({ isActive }) => checkActive(isActive)} to="/login">Sign In</NavLink>
+                    <NavLink className={({ isActive }) => checkActive(isActive)} to="/sign-up">Sign Up</NavLink>
+                </div>
+            </div>
+
+
+
         </div>
     );
 };

@@ -3,8 +3,10 @@ import NavBar from "./NavBar";
 
 const Home = () => {
     return (
-        <div>
-            <p>This is the home page</p>
+        <div className="home">
+            <h1 className="homeMessage">
+                Welcome to Project Management System
+            </h1>
         </div>
     );
 };

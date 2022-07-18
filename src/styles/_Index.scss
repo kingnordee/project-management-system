@@ -1,0 +1,28 @@
+@import "App";
+@import "base";
+@import "NavBar";
+@import "SignUP";
+@import "Home";
+@import "ShoppingCart";
+@import "Login";
+
+html, body{
+
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    &:visited{
+      color: inherit;
+    }
+  }
+
+  .index{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    height: 100vh;
+  }
+}
+

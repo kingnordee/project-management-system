@@ -12,28 +12,39 @@ const Login = () => {
 
     }
 
-    return(
-        <div className="formWrapper">
-            <h2>User Login Form</h2>
-            <form onSubmit={handleSubmit}>
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email"
-                       required
-                       value={state.email}
-                       onChange={(e => setState({...state, email:e.target.value}))}
-                />
+    return (
+        <div className="login">
+            <div className="formWrapper">
+                <h2>Login Form</h2>
 
-                <label htmlFor="password">Password</label>
-                <input type="password" id="password"
-                       required
-                       value={state.password}
-                       onChange={(e => setState({...state, password:e.target.value}))}
-                />
+                <form onSubmit={handleSubmit}>
 
-                <button type="submit" onClick={handleSubmit}>Submit</button>
-            </form>
+                    <div className="inputs">
+                        <div className="email">
+                            <label htmlFor="email">Email</label>
+                            <input type="email" id="email"
+                                   required
+                                   value={state.email}
+                                   onChange={(e => setState({...state, email: e.target.value}))}
+                            />
+                        </div>
+                        <div className="password">
+                            <label htmlFor="password">Password</label>
+
+                            <input type="password" id="password"
+                                   required
+                                   value={state.password}
+                                   onChange={(e => setState({...state, password: e.target.value}))}
+                            />
+                        </div>
+                    </div>
+
+                    <button type="submit" onClick={handleSubmit}>Sign In</button>
+                </form>
+            </div>
         </div>
-    )
+
+    );
 }
 
 export default Login

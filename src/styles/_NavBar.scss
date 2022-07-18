@@ -1,0 +1,32 @@
+.navBar{
+
+  display: flex;
+  //flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  max-width: 100vw;
+  background: cornflowerblue;
+  color: white;
+  //padding: 10px;
+
+  .navInnerWrapper{
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .navLeft{
+    display: flex;
+    flex-grow: 1;
+    padding: 0 50px;
+  }
+
+  .navRight{
+    width: fit-content;
+    *{
+      padding: 0 40px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  //min-height: 99.5vh;
+
+  .components{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .isActive{
+    color: yellow;
+    font-weight: bold;
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    *{
+      color: black;
+      font-weight: lighter;
+    }
+
+  }
+}
