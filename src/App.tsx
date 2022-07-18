@@ -19,7 +19,7 @@ const App = () => {
                     </Routes>
                 </div>
             </BrowserRouter>
-            <footer><h5>&copy; Team 4, Project Management, Summer 2021</h5></footer>
+            <footer><h5>&copy; Team 1, Software Architecture, Summer 2021</h5></footer>
         </div>
     );
 };
